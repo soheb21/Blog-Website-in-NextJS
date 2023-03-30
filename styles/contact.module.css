@@ -1,0 +1,46 @@
+.container{
+    height: 90vh;
+    width: 100vw;
+    display: grid;
+    place-content: center;
+}
+.container form {
+    box-shadow: 2px 2px 10px 5px rgb(0,13,54);
+    border-radius: 2rem;
+    height: 100%;
+    width: 100%;
+    padding: 1.5rem;
+    display: grid;
+    place-content: center;
+    place-items: center;
+}
+.mb3{
+    width: auto;
+    margin: 1rem;
+
+}
+.mb3 label {
+    margin-right: 1rem;
+    font-size: 1rem;
+}
+.mb3 input,.txtarea{
+   padding: 1rem .5rem;
+    outline: none;
+    border: none;
+    box-shadow: 2px 2px 10px 5px rgb(0,13,54);
+    border-radius: 8px;
+}
+.mb3 button{
+    padding: .3rem .8rem;
+    background-color: rgb(0,13,54);
+    columns: white;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.mb3 button:hover{
+    background-color: rgb(68, 68, 107);
+}
